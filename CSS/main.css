@@ -3,17 +3,17 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	 font-size: 1.25em;
- font-family: font-family: 'Droid Serif', sans-serif;
+  font-family: 'Droid Serif', sans-serif;
   
    color: #282932; 
-	background: #f6f4ec;
+	background: #3460a8;
 
 }
 
 /* Navigation */
 
 nav {
-	background-color: #49B9DE;
+	background-color: #3460a8;
 	color: #f6f4ec;
 }
 nav a {
@@ -81,7 +81,7 @@ font-size: 1.7777em;
 header {
 	padding: 10em 4%;
 	text-align: center;
-	background-color: #49B9DE;
+	background-color: #3460a8;
 	color: #f6f4ec;
 
 }
@@ -130,7 +130,7 @@ img {
 /* footer */
 
 footer {
-	background-color: #49B9DE;
+	background-color: #3460a8;
 	color: #f6f4ec;
 	clear: both;
 }
