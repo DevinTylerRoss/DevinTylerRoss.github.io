@@ -6,11 +6,13 @@ body {
   font-family: 'Droid Serif', sans-serif;
   
    color: #282932; 
-	background-color: #3460a8;
+
 
 }
 
 /* Navigation */
+
+
 
 nav {
 	background-color: #3460a8;
@@ -20,6 +22,7 @@ nav a {
 	font-family: 'Oswald';	
 	text-decoration: none;
 	color: #f6f4ec;
+	font-size: 2em;
 
 }
 
@@ -40,12 +43,42 @@ nav li {
 }
 
 nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+   
+    
+}
+
+
+
+/* 
+=========================================
+for wide screens
+=========================================
+*/
+
+@media screen and (min-width: 500px){
+    nav ul {
 	list-style-type: none;
 	text-align: center;
 	padding: 0;
 	margin: 0;
 	display: flex;
 	justify-content: space-around;
+}
+
+
+header h1 {
+	font-size: 6.25em;
+	font-weight: 900;
+	
+	margin: 0;
+}
+
+
+    
+   
 }
 
 
@@ -86,12 +119,6 @@ header {
 
 }
 
-header h1 {
-	font-size: 6.25em;
-	font-weight: 900;
-	
-	margin: 0;
-}
 
 
 header h2 {
@@ -163,4 +190,78 @@ footer p {
 figure {
 	padding: 3%;
 	float: left;
+}
+
+/*
+========================================================
+Calculator
+========================================================
+*/
+body, div, button {
+    padding:0;
+    margin:0;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#calculator {
+    max-width: 510px;
+    
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #999;
+    border: 3px solid black;
+    border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#total {
+    height: 150px;
+    width: 90%;
+    background-color: white;
+    margin: 10px auto;
+    margin-bottom: 50px;
+    padding: 0 5px;
+    text-align: right;
+    font-size: 120px;
+}
+
+#numbers,
+#operators {
+    margin: 0px;
+}
+
+#operators button, button {
+    cursor: pointer;
+    display: block;
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 2px;
+    margin: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 39px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#EDEDED), to(#DCDCDC)) ;
+    background: -moz-linear-gradient(top, #EDEDED, #DCDCDC);
+    border-radius: 10px;
+}
+
+#numbers button {
+    display: block;
+    float: left;
+    text-align: center;
+    color: black;
+    font-size: 43px;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 1px 1px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#EDEDED), to(#DCDCDC));
+    background:-moz-linear-gradient(top, #EDEDED, #DCDCDC) ;
+    border-radius: 10px;
+    
 }
