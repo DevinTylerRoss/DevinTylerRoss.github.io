@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Gugi');
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+ color: #374171;
+  font-family: 'Arimo', sans-serif;
+  line-height: 1.5;
+}
+
+h1, h2, a, #name {
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 1.5em;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: #ffb59b;
+}
+
+#container {
+
+}
+
+#fixed {
+
+ background-color: #ffb59b;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  border-bottom: 2px solid #affdcc;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: flex-end;
+
+
+}
+
+#navbar a {
+  padding-left: 20px;
+}
+
+#name {
+  font-size: 1.5em;
+  flex: 1 0 10px;
+
+}
+
+#name:hover {
+  color: #affdcc;
+}
+
+
+a {
+
+  color: #374171;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #affdcc;
+}
+
+#welcome-section {
+  padding-top: 150px;
+   border-bottom: 2px solid #affdcc;
+  text-align: center;
+  height: 100vh;
+  font-family: "arimo";
+  color: #affdcc;
+  font-size: 4em;
+
+background:URL("https://res.cloudinary.com/dxsplfxnc/image/upload/v1524110299/IMG_0312_rtiatr.jpg");
+
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#welcome-section {
+  padding-bottom: 50px;
+}
+
+#about {
+  border-bottom: 2px solid #affdcc;
+  text-align: center;
+}
+
+
+#projects {
+  border-bottom: 2px solid #affdcc;
+  text-align: center;
+}
+
+.project-tile {
+  padding: 20px;
+}
+
+.project-tile img {
+  border: 2px solid #affdcc;
+}
+
+
+
+#contact {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5em;
+}
+
+@media (min-width: 800px){
+ #projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  #about p {
+ padding-left: 200px;
+  padding-right: 200px;
+}
+}
