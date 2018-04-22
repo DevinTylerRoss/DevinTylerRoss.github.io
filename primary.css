@@ -130,7 +130,7 @@ background: #22333B; /* #ed6a5a;*/
 /* Project section */
 
 #projects {
-  border-bottom: 2px solid #36C9C6;
+ 
   text-align: center;
   background: #22333B;
   color: white;
@@ -184,6 +184,7 @@ background: #22333B; /* #ed6a5a;*/
   justify-content: space-around;
   font-size: 1.5em;
   background:  #22333B;
+   border-top: 2px solid #36C9C6;
 }
 
 #contact h1 {
